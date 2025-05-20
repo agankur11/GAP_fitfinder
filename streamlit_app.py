@@ -101,7 +101,7 @@ if st.button("Find My Size"):
     - Usual size: {usual_size}
     - Purchase history: {history_summary}
 
-    Suggest the best fit in {brand} for this product and explain why. Please begin your response with: 'Recommended size is <SIZE>' followed by a short explanation.
+    Suggest the best fit in {brand} for this product and explain why. Picking up a value for <SIZE> from XS,S,M,L,XL,XXL, Please begin your response with: 'Recommended size is <SIZE>' followed by a short explanation.
     """
 
     try:
